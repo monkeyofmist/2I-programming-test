@@ -29,12 +29,12 @@ class Iterations
         System.out.println("Second iterations");
         System.out.println(" ");
         
-        
         for (int i = B; i < Y + B; i = i + B)
         {
             System.out.print(i + " ");
         }
         
+        //use C and Z so that the previous A and X can be used without issues
         int C = (A+2);
         int Z = (X*3);
         
